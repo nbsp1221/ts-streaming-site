@@ -1,0 +1,36 @@
+{
+  "name": "ts-streaming-site",
+  "version": "1.0.0",
+  "description": "Streaming Site with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env CHOKIDAR_USEPOLLING=true next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbsp1221/ts-streaming-site.git"
+  },
+  "author": "nbsp1221",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbsp1221/ts-streaming-site/issues"
+  },
+  "homepage": "https://github.com/nbsp1221/ts-streaming-site#readme",
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.2",
+    "@types/react": "^16.9.49",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.20.6",
+    "typescript": "^4.0.2"
+  }
+}
